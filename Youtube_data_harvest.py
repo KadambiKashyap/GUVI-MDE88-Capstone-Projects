@@ -543,15 +543,6 @@ if selected == "Insights":
     df = pd.DataFrame(mycursor.fetchall(),columns = mycursor.column_names)
     st.write(df)
 
-    plt.figure(figsize=(10,8))
-    x= plt.bar(df['Video_name'], df['Total_comments'], color='red')
-    plt.title("Total number of Comments per Channel")
-    plt.tight_layout()
-    plt.xticks(rotation=90, ha='right')  
-    plt.show()
-    st.pyplot(plt.gcf(), use_container_width=True)
-
-
 
   elif all_questions == "5.Which videos have the highest number of likes, and what are their corresponding channel names?":
     mycursor.execute('''select channel_name,video_name, likes 
