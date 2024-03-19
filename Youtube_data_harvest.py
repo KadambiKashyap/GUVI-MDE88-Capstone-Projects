@@ -518,7 +518,7 @@ if selected == "Insights":
      st.write(df)
      plt.figure(figsize=(10,8))
      x = plt.bar(df['channel_name'], df['No_of_videos'], color='green')
-     plt.title("Total vVideos per channel")
+     plt.title("Total Videos per channel")
      plt.tight_layout()
      plt.xticks(rotation=90, ha='right') 
      plt.show()
