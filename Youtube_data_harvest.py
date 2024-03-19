@@ -643,3 +643,4 @@ if selected == "Insights":
     plt.xticks(rotation=90, ha='right') 
     plt.show()
     st.pyplot(plt.gcf(), use_container_width=True)
+#  plt.gcf()is used to ensure to get current figure to run in streamlit app in the browser.
