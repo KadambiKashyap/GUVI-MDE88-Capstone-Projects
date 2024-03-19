@@ -495,7 +495,7 @@ if selected == "Insights":
                            '3.What are the top 10 most viewed videos and their respective channels?',
                            '4.How many comments were made on each video, and what are their corresponding video names?',
                            '5.Which videos have the highest number of likes, and what are their corresponding channel names?',
-                           '6.What is the total number of likes and dislikes for each video, and what are their corresponding video names?',
+                           '6.Which channel has most number of Subscribers?',
                            '7.What is the total number of views for each channel, and what are their corresponding channel names?',
                            '8.What are the names of all the channels that have published videos in the year 2023?',
                            '9.What is the average duration of all videos in each channel, and what are their corresponding channel names?',
