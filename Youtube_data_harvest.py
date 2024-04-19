@@ -11,7 +11,7 @@ from pymongo import MongoClient
 import matplotlib.pyplot as plt
 from datetime import datetime
 
-api_key= "AIzaSyAPanEYupQun9KdeGqepQzB92MAIV3H_3M"
+api_key= "your_api_key"
 
 youtube = googleapiclient.discovery.build("youtube", "v3", developerKey=api_key)
 
@@ -20,7 +20,7 @@ youtube = googleapiclient.discovery.build("youtube", "v3", developerKey=api_key)
 client = pymongo.MongoClient("mongodb://localhost:27017/")
 db = client["youtube_data"]
 
-# Connceting to a SQL server and creaating new database
+# Connceting to a SQL server and creating new database
 
 my_db = sql.connect( 
              host="127.0.0.1",
